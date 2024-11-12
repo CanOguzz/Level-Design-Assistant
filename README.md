@@ -1,44 +1,27 @@
 # Level-Design-Assistant
-Level design assitant tool for unity game engine
+Level design assistant tool for the Unity game engine
 
 
-Here's a README template tailored to showcase your AI-Powered Level Design Assistant project on GitHub. This README will help highlight your tool's functionality, provide clear instructions, and demonstrate professionalism.
 
-AI-Powered Level Design Assistant
-A custom Unity Editor tool that procedurally generates terrain using Perlin Noise, designed to assist level designers in creating diverse, adjustable terrains quickly and efficiently. Created as a demonstration of skills in Unity, C# scripting, and procedural generation.
+A custom Unity Editor tool that procedurally generates terrain using Perlin Noise is designed to assist level designers in creating diverse, adjustable terrains quickly and efficiently. Created as a demonstration of skills in Unity, C# scripting, and procedural generation.
 
 Project Overview
-The AI-Powered Level Design Assistant is a Unity Editor extension tool that generates procedurally generated terrains with customizable parameters, such as terrain size, height, noise scale, and more. This project showcases foundational skills in Unity editor scripting and procedural content generation, aligned with game development practices.
+Level Design Assistant is a Unity Editor extension tool that generates procedurally generated terrains with customizable parameters, such as terrain size, height, noise scale, and more. This project showcases foundational skills in Unity editor scripting and procedural content generation, aligned with game development practices.
 
 Features
 Procedural Terrain Generation: Generates realistic terrain using Perlin Noise.
-Customizable Parameters: Adjust terrain size, height, noise scale, seed, octaves, persistence, and lacunarity.
+Customizable Parameters: You can adjust the terrain size, height, noise scale, seed, octaves, persistence, and lacunarity.
 Unity Editor Integration: Accessible via a custom editor window, providing a streamlined workflow for level designers.
 Seed-Based Randomization: Enables reproducible terrain results.
 Technologies Used
-Unity: Version 2021.3 LTS or later
+Unity
 C#: For editor scripting and procedural generation
 Universal Render Pipeline (URP): Optional (ensure URP settings for compatible materials)
-Getting Started
-Prerequisites
-Unity Version: 2021.3 LTS or later is recommended for compatibility.
-Basic Knowledge of Unity: Familiarity with the Unity Editor is recommended to navigate the tool effectively.
-Installation
-Clone or Download this Repository:
 
-bash
-Kodu kopyala
-git clone https://github.com/yourusername/AI-Level-Design-Assistant.git
-Open the Project in Unity:
 
-Launch Unity Hub, and click Open Project.
-Select the cloned repository folder.
-Configure URP (If Needed):
 
-Go to Edit > Project Settings > Graphics.
-Assign a compatible URP asset in the Scriptable Render Pipeline Settings.
-Using the Tool
-Accessing the Tool
+Using the Tool? 
+
 Open Unity and load the project.
 Navigate to the Level Design Assistant:
 In the top menu bar, go to Tools > Level Design Assistant to open the custom editor window.
@@ -57,8 +40,8 @@ Adjust Parameters as desired.
 Click "Generate Terrain" to create a procedurally generated terrain in the Scene view.
 Experiment with Parameters for varied terrain styles.
 
-Future Enhancements
-Potential improvements to make the tool even more powerful:
+Future Enhancements:
+
 
 Advanced AI Integration: Incorporate machine learning algorithms to generate specific types of terrain based on user input.
 Erosion Simulation: Add erosion and sediment simulation for more realistic terrain shaping.
