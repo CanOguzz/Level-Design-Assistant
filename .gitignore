@@ -1,0 +1,32 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+#*.meta
+
+# Uncomment this line if you have dependencies installed via Unity Package Manager,
+# but you don't want to commit their source.
+#/Packages/
+
+# Prevent crash reports, analytics, and video recordings from being tracked.
+/CrashReports/
+/UnityAnalytics/
+/StreamingAssets/UnityAnalytics/
+
+# Ignore autodesk Interactive shader cache directory
+/Autodesk/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Rider plugin
+.idea/
+
+# Ignore Gradle cache
+.gradle/
